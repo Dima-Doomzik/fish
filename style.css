@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     margin: 0px;
-    background-image: url("");
+    background-image: linear-gradient(to top, blue yellow);
 }
 
 
@@ -68,6 +68,7 @@ h3 {
 h4 {
     text-align: center;
     font-size: 50px;
+    border-bottom: 7px solid black;
 }
 .depths {
     text-align: center;
@@ -77,37 +78,43 @@ h4 {
     border-right: 7px dotted lightblue;
     border-left: 7px dotted lightblue;
     border-radius: 7px;
+    margin-top:30px;
 }
 .heven {
     float: left;
-    margin-top: 190px;
-    margin-left: 70px;
+    margin-top: 200px;
+    margin-left: 50px;
     font-size: 25px;
     color:greenyellow;
     border-bottom: 5px double blueviolet;
     border-top: 5px double blueviolet;
     border-radius: 5px;
+
 }
 .rod {
     float: right;
+    margin-right: 50px;
 }
 .level {
-    float: left;
+   
     margin-top: 450px;
     color: brown;
     border: 5px double gold;
     font-size: 25px;
 border-radius: 5px;
+float: left;
+margin-left: 50px;
 }
 .level1 {
     float: right;
     margin-top: 100px;
+    margin-right: 50px ;
     
 }
 .block {
-    margin-top: 190px;
+    margin-top: 290px;
     float: right ;
-    margin-right: 190px;
+    margin-left: 45px;
     border: 5px  dotted red ;
     color: burlywood;
     font-size: 25px;
@@ -116,6 +123,7 @@ border-radius: 5px;
 h5 {
     text-align: center;
     font-size: 50px;
+    border-bottom: 7px solid black;
 }
 footer {
     margin-top: 150px;
@@ -129,8 +137,38 @@ footer {
     box-shadow: 0px 8px 7px 7px inset gold;
 }
 .roblox:hover {
-
+background-image: linear-gradient(to left,  lightblue, brown);
+box-shadow: oldlace 0 5px 0 2px ;
 }
+.heven:hover {
+    box-shadow: 3px 5px 10px gold ;
+}
+.depths:hover {
+      box-shadow: 5px 5px 5px 0 brown, 0 5px 5px 5px navy;
+}
+.dep {
+    margin-left:50px ;
+    float: left;
+}
+.block1 {
+  
+  margin-left: 30px;
+}
+.level:hover {
+    box-shadow: -4px 2px  green, -8px 4px yellowgreen, -12px 6px turquoise;
+}
+.block:hover {
+ box-shadow: 0  0  10px 5px royalblue;
+}
+.bobbers {
+    text-decoration: none;
+    border: 5px dotted brown;
+    color:darkgoldenrod;
+}
+
+
+
+
 
 
 
